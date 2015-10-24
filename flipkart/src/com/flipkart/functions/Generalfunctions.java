@@ -66,7 +66,19 @@ public class Generalfunctions {
 			return false;
 		}
 	}
-	
+	/*******************************************************************************
+	Function Name 					: clickBu
+	Description						: enters text into an Input(textbox) 
+	Parameters						: objLocator,value
+	Usage							: bStatus = inputText(objLocator,value);
+	Created By						: TenXLabs,Prasad
+	Created On						: 10/22/2015,23:43
+	 ******************************************************************************
+	Revision History				:
+	Modified By						:
+	Modified On						:
+	Remarks                         :
+	******************************************************************************/
 	public static boolean clickButton(By objLocator,String locator){
 		try{
 			Global.driver.findElement(objLocator).click();
@@ -76,6 +88,17 @@ public class Generalfunctions {
 			Global.errMsg = e.getMessage();
 			return false;
 		}
+	}
+	public static boolean mouseOver(){
+		try{
+//			Global.driver.
+			return true;
+		}
+		catch(Exception e){
+			Global.errMsg = e.getMessage();
+			return false;
+		}
+		
 	}
 
 
