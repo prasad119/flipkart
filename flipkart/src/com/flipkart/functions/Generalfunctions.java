@@ -1,7 +1,9 @@
 package com.flipkart.functions;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -89,9 +91,10 @@ public class Generalfunctions {
 			return false;
 		}
 	}
-	public static boolean mouseOver(){
+	public static boolean mouseOver(WebElement objLocator){
 		try{
-//			Global.driver.
+			Actions act = new Actions(Global.driver);
+			act.moveToElement(objLocator).build().perform();
 			return true;
 		}
 		catch(Exception e){
