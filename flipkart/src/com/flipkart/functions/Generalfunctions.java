@@ -69,10 +69,10 @@ public class Generalfunctions {
 		}
 	}
 	/*******************************************************************************
-	Function Name 					: clickBu
-	Description						: enters text into an Input(textbox) 
+	Function Name 					: clickButton
+	Description						: clicks on a button 
 	Parameters						: objLocator,value
-	Usage							: bStatus = inputText(objLocator,value);
+	Usage							: bStatus = clickButton(objLocator);
 	Created By						: TenXLabs,Prasad
 	Created On						: 10/22/2015,23:43
 	 ******************************************************************************
@@ -81,7 +81,7 @@ public class Generalfunctions {
 	Modified On						:
 	Remarks                         :
 	******************************************************************************/
-	public static boolean clickButton(By objLocator,String locator){
+	public static boolean clickButton(By objLocator){
 		try{
 			Global.driver.findElement(objLocator).click();
 			return true;
@@ -91,6 +91,19 @@ public class Generalfunctions {
 			return false;
 		}
 	}
+	/*******************************************************************************
+	Function Name 					: mouseOver
+	Description						: mouse over on a specific element 
+	Parameters						: objLocator
+	Usage							: bStatus = mouseOver(objLocator);
+	Created By						: TenXLabs,Prasad
+	Created On						: 10/22/2015,23:43
+	 ******************************************************************************
+	Revision History				:
+	Modified By						:
+	Modified On						:
+	Remarks                         :
+	******************************************************************************/
 	public static boolean mouseOver(WebElement objLocator){
 		try{
 			Actions act = new Actions(Global.driver);
