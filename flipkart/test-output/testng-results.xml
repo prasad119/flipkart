@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24189" started-at="2015-10-22T07:00:46Z" finished-at="2015-10-22T07:01:11Z">
+  <suite name="Default suite" duration-ms="123" started-at="2015-10-25T10:44:20Z" finished-at="2015-10-25T10:44:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24189" started-at="2015-10-22T07:00:46Z" finished-at="2015-10-22T07:01:11Z">
-      <class name="com.Flipkart">
-        <test-method status="PASS" signature="flipkart()[pri:0, instance:com.Flipkart@19f707b]" name="flipkart" duration-ms="24135" started-at="2015-10-22T12:30:46Z" finished-at="2015-10-22T12:31:11Z">
+    <test name="Default test" duration-ms="123" started-at="2015-10-25T10:44:20Z" finished-at="2015-10-25T10:44:20Z">
+      <class name="automationFramework.TestNGAnnotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="beforeSuite" is-config="true" duration-ms="38" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- flipkart -->
-      </class> <!-- com.Flipkart -->
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="beforeTest" is-config="true" duration-ms="1" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="beforeClass" is-config="true" duration-ms="1" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="testCase1" duration-ms="34" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="testCase2" duration-ms="2" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="afterClass" is-config="true" duration-ms="1" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="afterTest" is-config="true" duration-ms="1" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:automationFramework.TestNGAnnotations@14cbf3f]" name="afterSuite" is-config="true" duration-ms="0" started-at="2015-10-25T16:14:20Z" finished-at="2015-10-25T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- automationFramework.TestNGAnnotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
